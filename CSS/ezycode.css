@@ -1,0 +1,420 @@
+
+   /*Background color of screen*/
+   body
+   {
+   background: rgba(183,222,237,1);
+   background: -moz-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 32%, rgba(33,180,226,1) 65%, rgba(183,222,237,1) 100%);
+   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(183,222,237,1)), color-stop(32%, rgba(113,206,239,1)), color-stop(65%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
+   background: -webkit-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 32%, rgba(33,180,226,1) 65%, rgba(183,222,237,1) 100%);
+   background: -o-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 32%, rgba(33,180,226,1) 65%, rgba(183,222,237,1) 100%);
+   background: -ms-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 32%, rgba(33,180,226,1) 65%, rgba(183,222,237,1) 100%);
+   background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 32%, rgba(33,180,226,1) 65%, rgba(183,222,237,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=1 );	
+   }
+   /*Hiding subheadings from start :*/
+   .yksubheadings 
+   {
+   display:none; 	
+   }
+   /*Ezy English Home Page Heading Box Shadow thing*/
+   .yk_home_page_heading
+   {
+   text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0,0,0,0.15), 0px 24px 2px rgba(0,0,0,0.1), 0px 34px 30px rgba(0,0,0,0.1);	
+   }
+   /*Main body of page font*/
+   .ykmainbody
+   {
+   font-family:cantarell;
+   text-align:center;  
+   }
+   .ykmainbodywrapper
+   {
+   max-width: 95%;	
+   }
+   .ykclearslideshow
+   {
+   clear: left;
+   }
+   .ykheightauto
+   {
+   height:auto;
+   }
+   .ykclearboth
+   {
+   clear: both;
+   }
+   .yk_highscoressoon
+   {
+   font-size:8px;
+   }
+   .ykleftnav {
+   margin-top: 50px;
+   }
+   .yk_topheadings
+   {
+   font-family: 'ama';	
+   cursor: pointer; 
+   font-size: 40px;
+   }
+   .yksubheadings h4
+   {
+   cursor:pointer; 
+   color: #0B3358;
+   font-family: 'arival';	
+   }
+   .yksubheadings h5
+   {
+   cursor:pointer; 
+   font-family: 'cantarell';	
+   }
+   .yksubheadings a {
+   color: #e87b26;
+   }
+   /*Custom Font*/
+   /*Arch Rival*/
+   @font-face {
+   font-family: 'arival';
+   src: url('../Fonts/ArchRival/sf_arch_rival-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../Fonts/ArchRival/sf_arch_rival-webfont.woff2') format('woff2'),
+   url('../Fonts/ArchRival/sf_arch_rival-webfont.woff') format('woff'),
+   url('../Fonts/ArchRival/sf_arch_rival-webfont.ttf') format('truetype'),
+   url('../Fonts/ArchRival/sf_arch_rival-webfont.svg#overpassregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   }
+   /*Cantarell*/
+   @font-face {
+   font-family: 'cantarell';
+   src: url('../Fonts/Cantarell/cantarell-regular-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../Fonts/Cantarell/cantarell-regular-webfont.woff2') format('woff2'),
+   url('../Fonts/Cantarell/cantarell-regular-webfont.woff') format('woff'),
+   url('../Fonts/Cantarell/cantarell-regular-webfont.ttf') format('truetype'),
+   url('../Fonts/Cantarell/cantarell-regular-webfont.svg#overpassregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   }
+   /*Amadeus*/
+   @font-face {
+   font-family: 'ama';
+   src: url('../Fonts/Amadeus/amadeus-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../Fonts/Amadeus/amadeus-webfont.woff2') format('woff2'),
+   url('../Fonts/Amadeus/amadeus-webfont.woff') format('woff'),
+   url('../Fonts/Amadeus/amadeus-webfont.ttf') format('truetype'),
+   url('../Fonts/Amadeus/amadeus-webfont.svg#overpassregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   }
+   /*Desyrel*/
+   @font-face {
+   font-family: 'desyrel';
+   src: url('../Fonts/Desyrel/desyrel-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../Fonts/Desyrel/desyrel-webfont.woff2') format('woff2'),
+   url('../Fonts/Desyrel/desyrel-webfont.woff') format('woff'),
+   url('../Fonts/Desyrel/desyrel-webfont.ttf') format('truetype'),
+   url('../Fonts/Desyrel/desyrel-webfont.svg#overpassregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   }
+   .ezyenglishtagline
+   {
+   font-size:35px;	
+   font-weight:bold;
+   }
+   .c1 {color: blue;} .c2 {color: purple;} .c3 {color: yellow;} .c4 {color: red;} .c5 {color: green;}
+   .c6 {color: pink;} .c7 {color: orange;} .c8 {color: maroon;} .c9 {color: silver;} .c9 {color: skyblue;} .c10 {color:#3B0A2F}
+   .yk_homepage_content {
+   font-family: 'cantarell';
+   }
+   .yk_homepage_content p {
+   font-size:20px;
+   }
+   .yk_homepage_content li {
+   font-size:17px;
+   }
+   /*Vocab Page :*/
+   .yk_clickintoimage
+   {
+   margin-top:20px;
+   margin-bottom:20px;	
+   }
+   .yk_clickintoimage h2
+   {
+   font-family: 'arival';	
+   }
+   .ykimages_slideshow_pn {
+   text-align: center;
+   }
+   .ykimages_slideshow_pn a {
+   color: #fff;
+   font-weight: bold;
+   }
+   .yk_click_pic_for_word_word p {
+   font-size: 40px;
+   font-weight: bold;
+   }
+   .yk_the_word_for_the_pic p {
+   font-size: 30px;
+   }
+   /*Vocab Game Section*/
+   #yk_quitgame, .yk_quit_scores, .yk_enter_your_name, .yk_tryagain, .yk_qgtend, .yk_fail
+   {
+   display:none;
+   }
+   .yk_results {
+   margin-top: 15px;
+   display:none;
+   }
+   .yk_match_the_pic_with_the_word
+   {
+   margin-top:50px;
+   cursor:url(../Images/cursor_hand.png), default;
+   display:none; 
+   }
+   .yk_match_the_pic_with_the_word:active {
+   cursor:url(../Images/cursor_handfist.png), default;
+   }
+   #yk_tick_vocab1, #yk_tick_vocab2, #yk_tick_vocab3, #yk_tick_vocab4, #yk_tick_vocab5, #yk_tick_vocab6, #yk_tick_vocab7, #yk_tick_vocab8 
+   {
+   width: 15% !important;	
+   }
+   .yk_word_for_matching
+   {
+   float:left;	
+   }
+   .yk_image_for_matching img
+   {
+   width: 25%; 
+   }
+   .yk_image_for_matching
+   {
+   margin-left: 70%;
+   width: 45%; 
+   }
+   .position
+   {
+   margin-bottom:10px;
+   }
+   .yk_image_for_matching_done {
+   opacity: 0.4;
+   width: 45%;
+   }
+   #ykrandomizediv {
+   margin-left: 25%;
+   margin-top: 50px;
+   }
+   .yk_score
+   {
+   margin-top: 10px;
+   display:none;	
+   }
+   .yk_scoringsystem
+   {
+   text-align: center;
+   width: 57%;
+   margin-top: 10px;
+   border: 1px solid;
+   padding: 1%;	
+   }
+   .yk_fail
+   {
+   margin-top: 25px;
+   }
+   .yk_results {
+   margin-top: 15px;
+   }
+   .yk_score_summary
+   {
+   font-size:12px;	
+   }
+   .yk_quit_scores {
+   margin-top: 25px;
+   }
+   .yk_high_score_table td {
+   font-size: 20px;
+   }
+   .yk_high_score_table {
+   width:100%;
+   }
+   .ykscores
+   {
+   margin-top:20px;	
+   }
+   .ykscores h4 {
+   text-align:center;
+   }
+   .yk_enter_your_name {
+   margin-top: 25px;
+   }
+   .ykpageheadings
+   {
+   font-family: 'arival';	
+   text-align:center; 
+   }
+   /*Convo Dialogue Page*/
+   .yk_left_person_dialogue {
+   text-align: left;
+   }
+   .yk_right_person_dialogue
+   {text-align:right;}
+   .row.yk_dialogue_wrapper
+   {width:90%; margin-top:30px;}
+   .ykBold
+   {
+   font-weight:bold;
+   color:green;
+   }
+   .ykBoldDone
+   {
+   font-weight:bold;
+   color:#D51114;
+   }
+   .yk_dialogue_images {
+   margin-bottom: 25px !important;
+   }
+   .dial
+   {
+   padding-bottom:10px; 
+   }
+   .yk_left_and_right_person_dialogue_row {
+   height: 200px;
+   }
+   /*Convo Game Page*/
+   /*Hide initial content that you don't want to show yet*/
+   .yk_dialoguegame_wrapper, .yk_dialgame_dialogues, .yk_answers, .yk_right_person_dialoguegame_2, .yk_left_person_dialoguegame_2, #dialoguegame2, #dialoguegame3, #dialoguegame4, .yk_fail, .yk_enter_your_name, .yk_convogame_score, .yk_convogame_scores_temp 
+   {
+   display:none;
+   }
+   /*Choice Sub Question (csq)*/
+   .yk_csq
+   {
+   display:none; 
+   }
+   /*Hide the dialogues*/
+   .yk_dialgame_dialogues
+   {
+   margin-top: 25px !important;
+   }
+   /*Align text to the left*/
+   .yk_dialgame_dialogues p {
+   text-align: left;
+   font-size:25px;
+   }
+   /*Float the left side image to the left */
+   .yk_dg_leftimage
+   {
+   float:left; 	
+   }
+   /*Float the right side image to the right*/
+   .yk_dg_rightimage
+   {
+   float:right; 	
+   }
+   /*Vertical aligning stuff to top*/
+   .tick_or_x_image, .yk_dg_dropdowns
+   {
+   vertical-align: top;	
+   }
+   /*Width of dropdown sections*/
+   .select_1
+   {
+   width: 55%;	
+   }
+   .select_2 {
+   width: 45%;
+   }
+   /*Home page*/
+   /*Custom Font*/
+   /*Amadeus*/
+   @font-face {
+   font-family: 'ama';
+   src: url('../Fonts/Amadeus/amadeus-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../Fonts/Amadeus/amadeus-webfont.woff2') format('woff2'),
+   url('../Fonts/Amadeus/amadeus-webfont.woff') format('woff'),
+   url('../Fonts/Amadeus/amadeus-webfont.ttf') format('truetype'),
+   url('../Fonts/Amadeus/amadeus-webfont.svg#overpassregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   }
+
+
+   /*   More, random :    */ 
+   .yk_home_page_heading
+   {
+   font-family: 'ama';	
+   font-size: 145px;
+   margin-top: 50px;	
+   }
+   .c1 {color: blue;} .c2 {color: purple;} .c3 {color: yellow;} .c4 {color: red;} .c5 {color: green;}
+   .c6 {color: pink;} .c7 {color: orange;} .c8 {color: maroon;} .c9 {color: silver;} .c9 {color: skyblue;} .c10 {color:#3B0A2F}
+
+
+   .yk_hint_image_left {display:none;}
+   .yk_hint_image_right {display:none;}
+
+
+   .yk_hint_image_left
+      {
+      text-align: left;
+      }
+
+      .yk_convogame_round1, .yk_convogame_round2, .yk_convogame_round3, .yk_convogame_round4
+      {display:none;}
+
+      .yk_cgr
+       {
+            font-size: 10px;
+            font-weight: bold;
+            color: orange;
+      }
+
+
+      .dialgame_dial p
+      {font-size:23px;}
+
+
+      .yk_right_person_dialoguegame p, .yk_right_person_dialoguegame_2 p 
+      {text-align:right;}
+
+
+      .yk_again_and_next_buttons 
+      {margin-top: 50px;}
+
+
+      .left_nav_topic_headings_highlighted
+      {
+
+      font-weight:bold;
+      color:#fff !important;
+
+      /*background: -webkit-linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #e413c0 75%, #e05252 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight:bold;*/
+      }
+
+      .ykdisabled {
+    background-color: #007095;
+    opacity: 0.2;
+   }
+
+      .yk_instructions {
+         text-align:center;
+         display:none;
+      }
+
+      .yk_image_for_matching img {
+    width: 20%;
+      }
+
+
+      .yk_hideallbutton {
+         display:none
+      }
+
+      .hint_pic {
+       display:none;
+      }
+
+
+
+
